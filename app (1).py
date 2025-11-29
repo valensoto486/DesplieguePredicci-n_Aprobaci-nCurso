@@ -4,10 +4,10 @@ import pandas as pd
 import numpy as np
 
 # --- 1. Load pre-trained models and encoders ---
-one_hot_encoder = joblib.load('/one_hot_encoder 1.joblib')
-min_max_scaler = joblib.load('/min_max_scaler 1.joblib')
-voting_hard_model = joblib.load('/voting_hard_model.joblib')
-label_encoder = joblib.load('/label_encoder 1.joblib')
+one_hot_encoder = joblib.load('/one_hot_encoder 2.joblib')
+min_max_scaler = joblib.load('/min_max_scaler 2.joblib')
+voting_hard_model = joblib.load('/voting_hard_model 1.joblib')
+label_encoder = joblib.load('/label_encoder 2.joblib')
 
 # --- 2. Streamlit App Title and Description ---
 st.title('Course Approval Prediction')
